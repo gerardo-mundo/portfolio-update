@@ -185,7 +185,7 @@ export class AboutComponent implements AfterViewInit, OnDestroy {
   terminalData = `{
   <span class="key">"name"</span>: <span class="string">"Gerardo Mundo"</span>,
   <span class="key">"role"</span>: <span class="string">"Full-Stack Software Developer"</span>,
-  <span class="key">"experience_years"</span>: <span class="number">3</span>,
+  <span class="key">"experience_years"</span>: <span class="number">2</span>,
   <span class="key">"passionate_about"</span>: [
     <span class="string">"Clean Code"</span>,
     <span class="string">"Clean Architecture"</span>,
