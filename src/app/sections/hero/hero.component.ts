@@ -15,8 +15,8 @@ import { AnimationService } from '../../core/services/animation.service';
         <h1 class="name">Gerardo Mundo</h1>
         <h3 class="role">Full-Stack Software Developer</h3>
         <p class="description">
-          Results-driven developer with 3+ years of experience in building 
-          robust web applications and leading technical migrations.
+          Results-driven developer with 2+ years of experience in building 
+          robust web applications with modern technologies such as, Angular, Java, Spring Boot, and .Net Core.
         </p>
         <div class="actions">
           <a href="#projects" class="btn-primary">View My Work</a>
