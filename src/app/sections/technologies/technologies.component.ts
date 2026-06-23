@@ -59,8 +59,8 @@ import { AnimationService } from '../../core/services/animation.service';
         }
         
         .tech-icon-placeholder {
-          background: var(--accent-color);
-          color: #000;
+          transform: scale(1.1);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
       }
     }

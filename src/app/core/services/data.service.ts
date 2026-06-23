@@ -64,6 +64,10 @@ export class DataService {
     { name: 'Spring Boot', iconClass: 'devicon-spring-original' },
     { name: 'Docker', iconClass: 'devicon-docker-plain' },
     { name: 'Azure', iconClass: 'devicon-azure-plain' },
-    { name: 'PostgreSQL', iconClass: 'devicon-postgresql-plain' }
+    { name: 'PostgreSQL', iconClass: 'devicon-postgresql-plain' },
+    { name: 'Java', iconClass: 'devicon-java-plain' },
+    { name: 'Python', iconClass: 'devicon-python-plain' },
+    { name: 'Git', iconClass: 'devicon-git-plain' },
+    { name: 'Postman', iconClass: 'devicon-postman-plain' }
   ]);
 }
