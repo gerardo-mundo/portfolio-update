@@ -4,7 +4,7 @@ import { Injectable, signal } from '@angular/core';
   providedIn: 'root'
 })
 export class ThemeService {
-  isDarkMode = signal<boolean>(true); // Default to dark mode
+  isDarkMode = signal<boolean>(false); // Default to dark mode
 
   constructor() {
     this.initTheme();
@@ -16,7 +16,7 @@ export class ThemeService {
       this.isDarkMode.set(savedTheme === 'dark');
     } else {
       // Check system preference
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const prefersDark = window.matchMedia('(prefers-color-scheme: light)').matches;
       this.isDarkMode.set(prefersDark);
     }
     this.applyTheme();
