@@ -27,7 +27,7 @@ export class DataService {
     {
       title: 'Full-Stack Software Developer',
       company: 'Quo Technology / Quo Logistics',
-      date: '2024 - Present',
+      date: 'Dec, 2024 - Present',
       description: 'Developing comprehensive applications using Angular and Java. Implementation of third-party APIs integrations, enhancing efficiency and data management capabilities'
     },
     {
@@ -35,7 +35,13 @@ export class DataService {
       company: 'Capit Broke',
       date: 'Feb, 2023 - Oct,2023',
       description: 'Built high-performance Backend services with C# and .NET Core. Implemented comprehensive business logic and CRUD operations.'
-    }
+    },
+    {
+      title: 'Frontend Intern',
+      company: 'Hackademy',
+      date: 'August, 2022 - Jan, 2023',
+      description: 'Assisted in the development of responsive user interfaces using HTML, CSS, and JavaScript. Collaborated with senior developers to debug and optimize application performance.'
+    },
   ]);
 
   projects = signal<Project[]>([
@@ -46,7 +52,7 @@ export class DataService {
     },
     {
       title: 'Dog Park System Management',
-      technologies: ['React 18', 'TypeScript', 'Express.js', 'PostgreSQL'],
+      technologies: ['React 18', 'Express.js', 'PostgreSQL'],
       description: 'A SaaS platform to manage dog park memberships, access control, and community events.'
     },
     {
